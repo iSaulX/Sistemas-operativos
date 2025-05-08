@@ -1,6 +1,8 @@
 import Homework from "../../components/Homework";
 import { Divider } from "@heroui/react";
 import DocumentAbout from "../../components/DocumentAbout";
+
+
 export default function HomePage(): JSX.Element {
   return (
     <main className="dark bg-background text-foreground bg-[url('https://astro.build/_astro/HeroBackground.B0iWl89K_2hpsgp.webp')] bg-left bg-cover  min-h-screen w-full font-inter flex items-center flex-col justify-start">
@@ -11,6 +13,8 @@ export default function HomePage(): JSX.Element {
         <p className="text-neutral-400 font-semibold">
           Por Saul Emanuel Yañez Salazar
         </p>
+        <p className="text-neutral-400 font-semibold">Sistemas operativos &bull; D04</p>
+        <p className="text-neutral-400 font-semibold">Maestra: Becerra Velazques Violeta del Rocio. </p>
         <Divider className="my-3" />
         <h2 className="font-extrabold text-2xl ml">Practicas.</h2>
       </div>
